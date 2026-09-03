@@ -1404,3 +1404,129 @@ img {
     }
 
 }
+
+@media screen and (max-width: 768px) {
+    /* 1. Global & Layout */
+    body {
+        overflow-x: hidden;
+    }
+
+    /* 2. Hero Adjustments */
+    .hero {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 80px 20px 40px 20px;
+        min-height: auto;
+        gap: 30px;
+    }
+
+    .hero-content {
+        max-width: 100%;
+    }
+
+    .hero h1 {
+        font-size: clamp(2.2rem, 8vw, 3.5rem); /* Se escala fluidamente sin salirse */
+        word-break: break-word;
+        line-height: 1.1;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 12px;
+    }
+
+    .hero-buttons a {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero-image {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .burger-placeholder {
+        width: min(260px, 80vw);
+        height: min(260px, 80vw);
+    }
+
+    .burger-placeholder img {
+        max-width: 85%;
+        height: auto;
+    }
+
+    /* 3. Menu Section Spacing */
+    .menu-preview {
+        padding: 40px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px; /* Controla el espaciado vertical entre elementos */
+    }
+
+    .menu-preview .section-heading {
+        margin-bottom: 0;
+    }
+
+    .menu-image-container {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .menu-image {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        display: block;
+    }
+
+    .menu-preview-button {
+        margin-top: 5px;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    /* 4. Crew Section (Reset completo para 1 columna alineada) */
+    .crew-grid {
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: none;
+        gap: 20px;
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .crew-card,
+    .crew-card:nth-child(n) {
+        width: 100% !important;
+        max-width: 100% !important;
+        transform: none !important; /* Desactiva offsets o desplazamientos de escritorio */
+        left: auto !important;
+        right: auto !important;
+        margin: 0 !important;
+        grid-column: auto !important;
+    }
+
+    /* 5. Ajuste de textos y contenedor general */
+    main {
+        overflow-x: hidden;
+    }
+}
+html, body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
