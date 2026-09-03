@@ -1271,3 +1271,136 @@ font-size: 0.8rem;
 
 
 }
+
+/* =========================
+MOBILE FIXES
+========================= */
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 700px) {
+
+    .hero {
+        min-height: auto;
+        padding: 100px 6% 70px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .hero-content {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .hero h1 {
+        font-size: clamp(3rem, 14vw, 5rem);
+        line-height: 0.95;
+        word-break: normal;
+    }
+
+    .hero-tagline {
+        font-size: 1.1rem;
+    }
+
+    .hero-description {
+        font-size: 0.9rem;
+    }
+
+    .hero-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        width: 100%;
+    }
+
+    .hero-buttons a {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .hero-image {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .burger-placeholder {
+        width: min(75vw, 300px);
+        height: min(75vw, 300px);
+        margin: 0 auto;
+    }
+
+    .burger-placeholder img {
+        width: 85%;
+        height: 85%;
+        object-fit: contain;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .menu-preview {
+        padding: 60px 6%;
+    }
+
+    .menu-preview .section-heading {
+        margin-bottom: 25px;
+    }
+
+    .menu-image-container {
+        width: 100%;
+    }
+
+    .menu-image {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .menu-preview-button {
+        margin-top: 20px;
+    }
+
+    .menu-preview-button a {
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .crew-section {
+        padding: 70px 6%;
+    }
+
+    .crew-section .section-heading {
+        margin-bottom: 35px;
+    }
+
+    .crew-grid {
+        width: 100%;
+        max-width: 100%;
+        grid-template-columns: 1fr;
+        gap: 14px;
+    }
+
+    .crew-card,
+    .crew-card:nth-child(4),
+    .crew-card:nth-child(5) {
+        grid-column: 1 / -1;
+        width: 100%;
+        min-width: 0;
+    }
+
+}
