@@ -5,40 +5,40 @@
 const products = {
 
     signature: [
-        { id: "burgertinho", name: "Burgertinho", subtitle: "by Santinho", price: 16.67, img: "Logos/burgertinho.png" },
-        { id: "maikiburger", name: "Maikiburger", subtitle: "by Miguel", price: 16.67, img: "Logos/maikiburger.png" },
-        { id: "drakuburger", name: "Drakuburger", subtitle: "by Matos", price: 16.67, img: "Logos/drakuburger.png" },
-        { id: "burgerchop", name: "Burgerchop", subtitle: "by Chop Machete", price: 16.67, img: "Logos/burgerchop.png" },
-        { id: "themagaburger", name: "The Magaburger", subtitle: "by Magallanes", price: 67, img: "Logos/themagaburger.png", special: true, label: "HOUSE SPECIAL" }
+        { id: "burgertinho", name: "Burgertinho", subtitle: "by Santinho", price: 16.67, img: "logos/burgertinho.png" },
+        { id: "maikiburger", name: "Maikiburger", subtitle: "by Miguel", price: 16.67, img: "logos/maikiburger.png" },
+        { id: "drakuburger", name: "Drakuburger", subtitle: "by Matos", price: 16.67, img: "logos/drakuburger.png" },
+        { id: "burgerchop", name: "Burgerchop", subtitle: "by Chop Machete", price: 16.67, img: "logos/burgerchop.png" },
+        { id: "themagaburger", name: "The Magaburger", subtitle: "by Magallanes", price: 67, img: "logos/themagaburger.png", special: true, label: "HOUSE SPECIAL" }
     ],
 
     classic: [
-        { id: "classicburger", name: "Classic Burger", subtitle: "The original", price: 9.99, img: "Logos/classicburger.png" },
-        { id: "doubletrouble", name: "Double Trouble", subtitle: "Two patties, zero regrets", price: 12.99, img: "Logos/doubletrouble.png" },
-        { id: "tripleburger", name: "Triple Burger", subtitle: "For the brave", price: 15.99, img: "Logos/tripleburger.png" },
-        { id: "simpleburger", name: "Simple Burger", subtitle: "No frills", price: 7.99, img: "Logos/simpleburger.png" }
+        { id: "classicburger", name: "Classic Burger", subtitle: "The original", price: 9.99, img: "logos/classicburger.png" },
+        { id: "doubletrouble", name: "Double Trouble", subtitle: "Two patties, zero regrets", price: 12.99, img: "logos/doubletrouble.png" },
+        { id: "tripleburger", name: "Triple Burger", subtitle: "For the brave", price: 15.99, img: "logos/tripleburger.png" },
+        { id: "simpleburger", name: "Simple Burger", subtitle: "No frills", price: 7.99, img: "logos/simpleburger.png" }
     ],
 
     sides: [
-        { id: "clipfries", name: "Clip Fries", subtitle: "Crispy clips", price: 4.99, img: "Logos/clipfries.png" },
-        { id: "aurarings", name: "Aura Rings", subtitle: "Onion rings, but aura", price: 5.49, img: "Logos/aurarings.png" },
-        { id: "rizznuggets", name: "Rizz Nuggets", subtitle: "Chicken nuggets w/ rizz", price: 6.99, img: "Logos/rizznuggets.png" },
-        { id: "huzzkybites", name: "Huzzky Bites", subtitle: "Bite sized huzzky", price: 5.99, img: "Logos/huzzkybites.png" },
-        { id: "vestuarioroto", name: "Vestuario Roto", subtitle: "Torn but tasty", price: 4.49, img: "Logos/vestuarioroto.png" }
+        { id: "clipfries", name: "Clip Fries", subtitle: "Crispy clips", price: 4.99, img: "logos/clipfries.png" },
+        { id: "aurarings", name: "Aura Rings", subtitle: "Onion rings, but aura", price: 5.49, img: "logos/aurarings.png" },
+        { id: "rizznuggets", name: "Rizz Nuggets", subtitle: "Chicken nuggets w/ rizz", price: 6.99, img: "logos/rizznuggets.png" },
+        { id: "huzzkybites", name: "Huzzky Bites", subtitle: "Bite sized huzzky", price: 5.99, img: "logos/huzzkybites.png" },
+        { id: "vestuarioroto", name: "Vestuario Roto", subtitle: "Torn but tasty", price: 4.49, img: "logos/vestuarioroto.png" }
     ],
 
     drinks: [
-        { id: "classicdrink", name: "Classic Drink", subtitle: "The usual", price: 2.99, img: "Logos/classicdrink.png" },
-        { id: "reelsdrink", name: "Reels Drink", subtitle: "Scroll-approved", price: 3.49, img: "Logos/reelsdrink.png" },
-        { id: "brawlstarsdrink", name: "Brawl Stars Drink", subtitle: "Gem grab flavor", price: 3.49, img: "Logos/brawlstarsdrink.png" },
-        { id: "ponchedrink", name: "Ponche Drink", subtitle: "House ponche", price: 3.99, img: "Logos/ponchedrink.png" }
+        { id: "classicdrink", name: "Classic Drink", subtitle: "The usual", price: 2.99, img: "logos/classicdrink.png" },
+        { id: "reelsdrink", name: "Reels Drink", subtitle: "Scroll-approved", price: 3.49, img: "logos/reelsdrink.png" },
+        { id: "brawlstarsdrink", name: "Brawl Stars Drink", subtitle: "Gem grab flavor", price: 3.49, img: "logos/brawlstarsdrink.png" },
+        { id: "ponchedrink", name: "Ponche Drink", subtitle: "House ponche", price: 3.99, img: "logos/ponchedrink.png" }
     ],
 
     combos: [
-        { id: "gangacombo", name: "Ganga Combo", subtitle: "Burger + Side + Drink", price: 19.99, img: "Logos/gangacombo.png" },
-        { id: "fiveadmins", name: "The 5 Admins", subtitle: "Feeds the whole server", price: 24.99, img: "Logos/fiveadmins.png", special: true, label: "CREW PICK" },
-        { id: "magallanescombo", name: "Magallanes Combo", subtitle: "Genshin approved", price: 18.99, img: "Logos/magallanescombo.png" },
-        { id: "ponchecombo", name: "Ponche Combo", subtitle: "Extra ponche energy", price: 17.99, img: "Logos/ponchecombo.png" }
+        { id: "gangacombo", name: "Ganga Combo", subtitle: "Burger + Side + Drink", price: 19.99, img: "logos/gangacombo.png" },
+        { id: "fiveadmins", name: "The 5 Admins", subtitle: "Feeds the whole server", price: 24.99, img: "logos/fiveadmins.png", special: true, label: "CREW PICK" },
+        { id: "magallanescombo", name: "Magallanes Combo", subtitle: "Genshin approved", price: 18.99, img: "logos/magallanescombo.png" },
+        { id: "ponchecombo", name: "Ponche Combo", subtitle: "Extra ponche energy", price: 17.99, img: "logos/ponchecombo.png" }
     ],
 
 };
